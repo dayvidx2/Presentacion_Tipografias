@@ -1,0 +1,299 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tipografía en las Páginas Web</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #4b4a49, #000000);
+  color: white;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #cbd5e1;
+}
+
+.hero-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.card h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #f2dbb3;
+}
+
+.card p, .card li {
+  font-size: 1.1rem;
+  color: #e2e8f0;
+}
+
+.section-img {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+ul {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image-item {
+  text-align: center;
+  background: rgba(255,255,255,0.05);
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.image-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.image-item p {
+  margin-top: 10px;
+  color: #cbd5e1;
+  font-size: 1rem;
+}
+
+.example-box {
+  background: rgba(159, 150, 121, 0.122);
+  border-left: 4px solid #f2dbb3;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.font-example-serif {
+  font-family: 'Times New Roman', serif;
+  font-size: 1.3rem;
+}
+
+.font-example-sans {
+  font-family: Arial, sans-serif;
+  font-size: 1.3rem;
+}
+
+.font-example-mono {
+  font-family: 'Courier New', monospace;
+  font-size: 1.3rem;
+}
+
+footer {
+  background: #43423f;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  .card h2 {
+    font-size: 1.6rem;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Tipografía en las Páginas Web</h1>
+      <img class="hero-img" src="imagenes/presentacion.webp" alt="Diseño web y tipografía">
+    </header><section class="card">
+  <h2>1. ¿Qué es la tipografía web?</h2>
+  <p>
+    La tipografía web es la forma en que se diseñan, organizan y muestran los textos dentro de una página web. Influye en la apariencia, accesibilidad y experiencia del usuario.
+  </p>
+  <img class="section-img" src="imagenes/tipografia.jpg" alt="Código y diseño web">
+</section>
+
+<section class="card">
+  <h2>2. La Importancia en el desarrollo web</h2>
+  <ul>
+    <li>Mejora la legibilidad en múltiples dispositivos.</li>
+    <li>Optimiza la experiencia de usuario (UX).</li>
+    <li>Refuerza identidad visual.</li>
+    <li>Favorece accesibilidad.</li>
+  </ul>
+  <div class="example-box">
+    <strong>Ejemplo real:</strong> Google usa fuentes Sans Serif como Roboto para ofrecer claridad, modernidad y adaptación responsive.
+  </div>
+</section>
+
+<section class="card">
+  <h2>3. Tipos de tipografías</h2>
+  <p>
+    Cada tipo de fuente transmite sensaciones distintas y se utiliza según el objetivo del sitio web. La elección correcta ayuda a comunicar mejor el propósito de una página.
+  </p>
+  <ul>
+    <li><strong>Serif:</strong> Elegancia, tradición y confianza. Ideal para periódicos, blogs formales o sitios institucionales.</li>
+    <li><strong>Sans Serif:</strong> Modernidad, simplicidad y claridad. Muy usada en aplicaciones, startups y plataformas digitales.</li>
+    <li><strong>Monospace:</strong> Precisión técnica. Común en editores de código, documentación técnica y dashboards para desarrolladores.</li>
+  </ul>
+
+  <div class="example-box font-example-serif">Ejemplo Serif: “Noticias Globales”</div>
+  <div class="example-box font-example-sans">Ejemplo Sans Serif: “App de Gestión Empresarial”</div>
+  <div class="example-box font-example-mono">Ejemplo Monospace: “console.log('Hola Mundo');”</div>
+</section>
+
+<section class="card">
+  <h2>4. Ejemplos en páginas web</h2>
+  <p>
+    Analizar sitios conocidos permite entender cómo la tipografía se adapta a diferentes necesidades de negocio y usuarios.
+  </p>
+
+  <h3 style="margin-top:20px; color:#f2dbb3;">Ejemplo 1: Google</h3>
+  <p>
+    Google utiliza Sans Serif (Product Sans/Roboto/Google Sans) porque ofrece lectura rápida, diseño minimalista y excelente visualización en móviles y escritorio.
+  </p>
+
+  <div class="image-gallery">
+    <div class="image-item">
+      <img src="imagenes/google.jpg" alt="Buscador Google">
+      <p>Product Sans</p>
+    </div>
+    <div class="image-item">
+      <img src="imagenes/roboto.jpeg" alt="Google Docs">
+      <p>Roboto</p>
+    </div>
+    <div class="image-item">
+      <img src="imagenes/google sans.png" alt="Android Material Design">
+      <p>Google Sans</p>
+    </div>
+  </div>
+
+  <div class="example-box">
+    <strong>Análisis:</strong> Google mantiene coherencia visual en múltiples plataformas gracias al uso constante de tipografías Sans Serif, mejorando accesibilidad, identidad y experiencia de usuario.
+  </div>
+
+  <h3 style="margin-top:20px; color:#f2dbb3;">Ejemplo 2: Universidad Nacional De Colombia</h3>
+  <p>
+    La Universidad Nacional de Colombia utiliza una identidad visual institucional que transmite prestígio académico, tradición y confianza. caracteristicas asociadas a estilos tipográficos formales
+  </p>
+
+  <div class="image-gallery">
+    <div class="image-item">
+      <img src="imagenes/logo universidad.png" alt="Noticias impresas y digitales">
+      <p>Logo</p>
+    </div>
+    <div class="image-item">
+      <img src="imagenes/Interfaz.png" alt="Lectura editorial">
+      <p>Interfaz</p>
+    </div>
+  </div>
+
+  <div class="example-box">
+    <strong>Análisis:</strong> En instituciones educativas, una tipografía formal refuerza prestigio, historia y credibilidad.
+  </div>
+
+  <h3 style="margin-top:20px; color:#f2dbb3;">Ejemplo 3: GitHub</h3>
+  <p>
+    GitHub utiliza Monospace(Mona Sans/Mona Sans Mono) por que ofrece modernidad, claridad, accesibilidad o presicion y alineacion visual
+  </p>
+
+  <div class="image-gallery">
+    <div class="image-item">
+      <img src="imagenes/github.png" alt="Código en editor">
+      <p>Mona Sans</p>
+    </div>
+    <div class="image-item">
+      <img src="imagenes/code.png" alt="Programación profesional">
+      <p>Mona Sans Mono</p>
+    </div>
+  </div>
+
+  <div class="example-box">
+    <strong>Análisis:</strong> GitHub no usa una sola fuente por estetica, sino por una estrategia tipográfica funcional por un lado esta Mona sans con una apariencia moderna, clara y accesible y por el otro lado Mona Sans Mono con un orden y presicion que comunica productividad
+  </div>
+</section>
+
+<section class="card">
+  <h2>5. Buenas prácticas</h2>
+  <ul>
+    <li>Usar máximo 2 o 3 fuentes.</li>
+    <li>Elegir fuentes optimizadas.</li>
+    <li>Diseño responsive.</li>
+    <li>Buen contraste.</li>
+  </ul>
+  <img class="section-img" src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1000&q=80" alt="Interfaz web moderna">
+  <div class="example-box">
+    <strong>Error común:</strong> Usar demasiadas fuentes diferentes genera desorden visual y reduce profesionalismo.
+  </div>
+</section>
+
+<footer>
+  <h2>Conclusión</h2>
+  <p>
+    La tipografía en desarrollo web combina diseño y funcionalidad. Elegir correctamente las fuentes mejora interfaces, fortalece proyectos y aporta calidad profesional.
+  </p>
+</footer>
+
+  </div>
+</body>
+</html>
